@@ -14,6 +14,49 @@ Some of the Languages and Libraries employed:
 - Form validation logic (basic input validation, logic for adding and removing "focus" and "invalid" styles, etc)
 - Responsive mobile design (sidebar, Flexbox, media queries)
 
+## Project Directory Structure
+
+Development environment (with the use of webpack), as seen in the master branch:
+
+
+
+
+
+
+
+.
+│
+├── assets\
+│   │
+│   ├── fonts\
+│   │   ├── UniSansHeavyCAPS.woff
+│   │   ├── UniSansHeavyCAPS.woff2
+│   │   ├── anonymousPro-Bold.ttf
+│   │   └── anonymousPro-Regular.ttf
+│   │
+│   └── images\
+│       ├── HostCorps.png
+│       ├── customer-1.jpg
+│       ├── customer-2.jpg
+│       ├── customer-3.jpg
+│       ├── freedom.jpg
+│       └── plan.jpg
+│
+│
+├── bundle.js
+├── customers.html
+├── index.html
+├── packages.html
+└── start-hosting.html
+
+
+
+
+
+
+
+
+
 ## Setup
 
 To use this project, clone it using Git:
@@ -31,3 +74,31 @@ To use this project, clone it using Git:
 ## Inspiration
 
 Inspired by the "JavaScript - The Complete Guide" course by Maximilian Schwarzmüller.
+
+
+
+
+dist\
+│
+├── assets\
+│   │
+│   ├── fonts\
+│   │   ├── UniSansHeavyCAPS.woff
+│   │   ├── UniSansHeavyCAPS.woff2
+│   │   ├── anonymousPro-Bold.ttf
+│   │   └── anonymousPro-Regular.ttf
+│   │
+│   └── images\
+│       ├── HostCorps.png
+│       ├── customer-1.jpg
+│       ├── customer-2.jpg
+│       ├── customer-3.jpg
+│       ├── freedom.jpg
+│       └── plan.jpg
+│
+│
+├── bundle.js
+├── customers.html
+├── index.html
+├── packages.html
+└── start-hosting.html
