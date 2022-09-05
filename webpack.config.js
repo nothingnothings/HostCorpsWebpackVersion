@@ -1,4 +1,3 @@
-/* eslint-disable quote-props */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -11,10 +10,14 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    assetModuleFilename: pathData => {
-      const filePath = path.dirname(pathData.filename).split('/').slice(1).join('/');
+    assetModuleFilename: (pathData) => {
+      const filePath = path
+        .dirname(pathData.filename)
+        .split('/')
+        .slice(1)
+        .join('/');
       return `${filePath}/[name][ext]`;
-    }
+    },
   },
   resolve: {
     extensions: ['.js'],
@@ -29,13 +32,11 @@ module.exports = {
       {
         test: /\.(woff|woff2|ttf|eot)$/,
         type: 'asset/resource',
-
       },
 
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
         type: 'asset/resource',
-
       },
     ],
   },
