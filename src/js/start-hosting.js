@@ -101,7 +101,7 @@ if (checkboxInput) {
 
 
 
-if (firstNameInput, lastNameInput, email, passwordInput) {
+if (firstNameInput, lastNameInput, emailInput, passwordInput) {
 
   console.log('ENTERED');
   firstNameInput.addEventListener('keyup', validate.bind(this));
