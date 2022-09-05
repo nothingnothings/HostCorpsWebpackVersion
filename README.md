@@ -2,12 +2,13 @@
 
 # HostCorps
 
-Website of a fictional hosting provider company. Built with HTML5, CSS3 and vanilla JavaScript. The webApp can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
+Website of a fictional hosting provider company. Built with HTML5, CSS3 and vanilla JavaScript. This version of the app made use of a Webpack workflow to bundle its content. The webApp can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
 
 ## Technologies
 
-Some of the Languages and Libraries employed:
+Some of the Languages, Libraries and packages employed:
 
+- Node Package Manager (for Webpack and webpack-related packages)
 - HTML5
 - CSS3 (animations, Flexbox, media queries)
 - Vanilla JavaScript (no JavaScript frameworks; usage of `var`, normal functions and common eventListeners)
@@ -85,7 +86,7 @@ The Webpack workflow's production output, as shown in the `gh-pages` branch (tas
 └── start-hosting.html
 ```
 
-## Webpack Configuration File
+## Webpack and package.json Configuration Files
 
 The webpack.config.js file used in the project:
 
@@ -178,4 +179,3 @@ To use this project, clone it using Git:
 ## Inspiration
 
 Inspired by the "JavaScript - The Complete Guide" course by Maximilian Schwarzmüller.
-
