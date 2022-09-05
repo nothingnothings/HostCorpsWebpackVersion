@@ -4,6 +4,11 @@ const checkboxInput = document.getElementById('checkbox');
 const signupButton = document.getElementById('signupButton');
 const inputs = document.querySelectorAll('input');
 
+  let firstNameInput = document.getElementById('first-name');
+  let lastNameInput = document.getElementById('last-name');
+  let emailInput = document.getElementById('email');
+  let passwordInput = document.getElementById('password');
+
 for (let input of inputs) {
   input.addEventListener('focus', () => {
     input.classList.remove('blurred');
@@ -15,10 +20,10 @@ for (let input of inputs) {
 
 function validate(textField) {
   let button = document.getElementById('signupButton');
-  let firstNameInput = document.getElementById('first-name');
-  let lastNameInput = document.getElementById('last-name');
-  let emailInput = document.getElementById('email');
-  let passwordInput = document.getElementById('password');
+  // let firstNameInput = document.getElementById('first-name');
+  // let lastNameInput = document.getElementById('last-name');
+  // let emailInput = document.getElementById('email');
+  // let passwordInput = document.getElementById('password');
 
   button.disabled = true;
   console.log('typed');
@@ -86,3 +91,20 @@ if (checkboxInput) {
   checkboxInput.addEventListener('click', checkboxChecked);
 }
 
+
+
+
+
+
+
+
+
+
+
+if (firstNameInput, lastNameInput, email, passwordInput) {
+
+  firstNameInput.addEventListener('keyup', validate.bind(this));
+  lastNameInput.addEventListener('keyup', validate.bind(this));
+  email.addEventListener('keyup', validate.bind(this));
+  passwordInput.addEventListener('keyup', validate.bind(this))
+}
