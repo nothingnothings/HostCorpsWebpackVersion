@@ -73,6 +73,10 @@ function showDummyMessage() {
   }, 2000);
 }
 
-signupButton.addEventListener('click', showDummyMessage);
+
+if (signupButton) {
+  signupButton.addEventListener('click', showDummyMessage);
+}
+// signupButton.addEventListener('click', showDummyMessage);
 
 checkboxInput.addEventListener('click', checkboxChecked);
