@@ -77,6 +77,7 @@ function showDummyMessage() {
 if (signupButton) {
   signupButton.addEventListener('click', showDummyMessage);
 }
-// signupButton.addEventListener('click', showDummyMessage);
 
-checkboxInput.addEventListener('click', checkboxChecked);
+if (checkboxInput) {
+  checkboxInput.addEventListener('click', checkboxChecked);
+}
