@@ -7,6 +7,8 @@ import customer1 from '../assets/images/customer-1.jpg';
 import customer2 from '../assets/images/customer-2.jpg';
 import customer3 from '../assets/images/customer-3.jpg';
 
+import snapshot from '../assets/images/HostCorps.png';
+
 import '../assets/fonts/UniSansHeavyCAPS.woff';
 import '../assets/fonts/UniSansHeavyCAPS.woff2';
 import '../assets/fonts/anonymousPro-Bold.ttf';
