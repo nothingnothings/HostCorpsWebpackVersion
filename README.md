@@ -16,12 +16,46 @@ Some of the Languages and Libraries employed:
 
 ## Project Directory Structure
 
-Development environment (with the use of webpack), as seen in the master branch:
+The development environment (with the use of a Webpack workflow), as seen in the master branch:
 
+```
+src\
+│
+├── assets\
+│   │
+│   ├── css\
+│   │   ├── common.css
+│   │   ├── customers.css
+│   │   ├── index.css
+│   │   ├── packages.css
+│   │   └── start-hosting.css
+│   │
+│   ├── fonts\
+│   │   ├── UniSansHeavyCAPS.woff
+│   │   ├── UniSansHeavyCAPS.woff2
+│   │   ├── anonymousPro-Bold.ttf
+│   │   └── anonymousPro-Regular.ttf
+│   │
+│   └── images\
+│       ├── HostCorps.png
+│       ├── HostCorps.svg
+│       ├── customer-1.jpg
+│       ├── customer-2.jpg
+│       ├── customer-3.jpg
+│       ├── freedom.jpg
+│       └── plan.jpg
+│
+│
+├── js\
+│   ├── index.js
+│   └── start-hosting.js
+│
+├── customers.html
+├── index.html
+├── packages.html
+└── start-hosting.html
 
-
-
-
+The Webpack workflow's production output, as shown in the gh-pages branch (tasked with the deployment of the app):
 
 ```
 .
@@ -48,6 +82,20 @@ Development environment (with the use of webpack), as seen in the master branch:
 ├── index.html
 ├── packages.html
 └── start-hosting.html
+```
+
+## Webpack Configuration File
+
+webpack.config.js:
+
+```
+
+
+
+
+
+
+
 ```
 
 
