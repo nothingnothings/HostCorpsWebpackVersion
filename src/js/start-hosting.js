@@ -1,7 +1,5 @@
 import '../assets/css/start-hosting.css';
 
-
-
 const checkboxInput = document.getElementById('checkbox');
 const signupButton = document.getElementById('signupButton');
 const inputs = document.querySelectorAll('input');
@@ -76,6 +74,5 @@ function showDummyMessage() {
 }
 
 signupButton.addEventListener('click', showDummyMessage);
-
 
 checkboxInput.addEventListener('click', checkboxChecked);
