@@ -19,7 +19,7 @@ Some of the Languages and Libraries employed:
 The development environment (with the use of a Webpack workflow), as seen in the master branch:
 
 ```
-src\
+.
 │
 ├── assets\
 │   │
