@@ -3,6 +3,10 @@ import '../assets/css/customers.css';
 import '../assets/css/common.css';
 import '../assets/css/packages.css';
 
+import customer1 from '../assets/images/customer-1.jpg';
+import customer2 from '../assets/images/customer-2.jpg';
+import customer3 from '../assets/images/customer-3.jpg';
+
 import favIcon16 from '../assets/images/favicon-16x16.png';
 import favIcon32 from '../assets/images/favicon-32x32.png';
 import favIcon from '../assets/images/favicon.ico';
@@ -13,10 +17,6 @@ import webManifest from '../assets/images/site.webmanifest';
 import mstTile from '../assets/images/mstile-150x150.png';
 import safariPinned from '../assets/images/safari-pinned-tab.svg';
 import browserConfig from '../assets/images/browserconfig.xml';
-
-import customer1 from '../assets/images/customer-1.jpg';
-import customer2 from '../assets/images/customer-2.jpg';
-import customer3 from '../assets/images/customer-3.jpg';
 
 import '../assets/fonts/UniSansHeavyCAPS.woff';
 import '../assets/fonts/UniSansHeavyCAPS.woff2';
