@@ -4,10 +4,10 @@ const checkboxInput = document.getElementById('checkbox');
 const signupButton = document.getElementById('signupButton');
 const inputs = document.querySelectorAll('input');
 
-  let firstNameInput = document.getElementById('first-name');
-  let lastNameInput = document.getElementById('last-name');
-  let emailInput = document.getElementById('email');
-  let passwordInput = document.getElementById('password');
+let firstNameInput = document.getElementById('first-name');
+let lastNameInput = document.getElementById('last-name');
+let emailInput = document.getElementById('email');
+let passwordInput = document.getElementById('password');
 
 for (let input of inputs) {
   input.addEventListener('focus', () => {
@@ -20,14 +20,8 @@ for (let input of inputs) {
 
 function validate(textField) {
   let button = document.getElementById('signupButton');
-  // let firstNameInput = document.getElementById('first-name');
-  // let lastNameInput = document.getElementById('last-name');
-  // let emailInput = document.getElementById('email');
-  // let passwordInput = document.getElementById('password');
-
   button.disabled = true;
-  console.log('typed');
-
+  
   if (
     textField.value !== '' &&
     firstNameInput.value !== '' &&
@@ -41,7 +35,6 @@ function validate(textField) {
     }
   }
 }
-
 
 window.validate = validate;
 
@@ -82,7 +75,6 @@ function showDummyMessage() {
   }, 2000);
 }
 
-
 if (signupButton) {
   signupButton.addEventListener('click', showDummyMessage);
 }
@@ -91,21 +83,10 @@ if (checkboxInput) {
   checkboxInput.addEventListener('click', checkboxChecked);
 }
 
-
-
-
-
-
-
-
-
-
-
-if (firstNameInput, lastNameInput, emailInput, passwordInput) {
-
+if ((firstNameInput, lastNameInput, emailInput, passwordInput)) {
   console.log('ENTERED');
   firstNameInput.addEventListener('keyup', validate.bind(this));
   lastNameInput.addEventListener('keyup', validate.bind(this));
   email.addEventListener('keyup', validate.bind(this));
-  passwordInput.addEventListener('keyup', validate.bind(this))
+  passwordInput.addEventListener('keyup', validate.bind(this));
 }
