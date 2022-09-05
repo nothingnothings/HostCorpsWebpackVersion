@@ -23,7 +23,7 @@ Development environment (with the use of webpack), as seen in the master branch:
 
 
 
-
+```
 .
 │
 ├── assets\
@@ -48,7 +48,7 @@ Development environment (with the use of webpack), as seen in the master branch:
 ├── index.html
 ├── packages.html
 └── start-hosting.html
-
+```
 
 
 
