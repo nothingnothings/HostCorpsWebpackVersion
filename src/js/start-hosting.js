@@ -21,6 +21,7 @@ function validate(textField) {
   let passwordInput = document.getElementById('password');
 
   button.disabled = true;
+  console.log('typed');
 
   if (
     textField.value !== '' &&
