@@ -86,7 +86,7 @@ The Webpack workflow's production output, as shown in the `gh-pages` branch (tas
 └── start-hosting.html
 ```
 
-## Webpack and package.json Configuration Files
+## Webpack and Project Configuration Files
 
 The webpack.config.js file used in the project:
 
@@ -159,6 +159,47 @@ module.exports = {
     hints: false,
   },
 };
+
+```
+
+The package.json file:
+
+```
+
+{
+  "name": "projetoostcorps",
+  "version": "1.0.0",
+  "description": "HostCorps",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server",
+    "build:prod": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nothingnothings/HostCorps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nothingnothings/HostCorps/issues"
+  },
+  "homepage": "https://github.com/nothingnothings/HostCorps#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cli": "^1.0.1",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
 
 ```
 
