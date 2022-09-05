@@ -103,6 +103,7 @@ if (checkboxInput) {
 
 if (firstNameInput, lastNameInput, email, passwordInput) {
 
+  console.log('ENTERED');
   firstNameInput.addEventListener('keyup', validate.bind(this));
   lastNameInput.addEventListener('keyup', validate.bind(this));
   email.addEventListener('keyup', validate.bind(this));
