@@ -219,7 +219,7 @@ To use this project, clone it using Git:
 - Responsive design (mobile and desktop) created with Flexbox and media queries
 - Addition/removal of CSS classes ("slide-in" animation) implemented with JavaScript
 - Showcase of the usage of Webpack to bundle and optimize a project
-- Usage of GitHub Actions and GitHub Pages with Webpack, for a seamless workflow (transition from the development stage to the production/deployment stage)
+- Usage of GitHub Actions and GitHub Pages with Webpack, for a seamless workflow (transition from development stage to production/deployment stage)
 
 ## Inspiration
 
