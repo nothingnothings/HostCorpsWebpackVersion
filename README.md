@@ -179,30 +179,3 @@ To use this project, clone it using Git:
 
 Inspired by the "JavaScript - The Complete Guide" course by Maximilian Schwarzmüller.
 
-
-
-
-dist\
-│
-├── assets\
-│   │
-│   ├── fonts\
-│   │   ├── UniSansHeavyCAPS.woff
-│   │   ├── UniSansHeavyCAPS.woff2
-│   │   ├── anonymousPro-Bold.ttf
-│   │   └── anonymousPro-Regular.ttf
-│   │
-│   └── images\
-│       ├── HostCorps.png
-│       ├── customer-1.jpg
-│       ├── customer-2.jpg
-│       ├── customer-3.jpg
-│       ├── freedom.jpg
-│       └── plan.jpg
-│
-│
-├── bundle.js
-├── customers.html
-├── index.html
-├── packages.html
-└── start-hosting.html
