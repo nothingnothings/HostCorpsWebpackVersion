@@ -2,11 +2,11 @@
 
 # HostCorps
 
-Website of a fictional hosting provider company. Built with HTML5, CSS3 and vanilla JavaScript. This version of the app made use of a Webpack workflow to bundle its content. The webApp can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
+Website of a fictional hosting provider company. Built with HTML5, CSS3 and vanilla JavaScript. This version of the app made use of a Webpack workflow to bundle its content. The app also uses GitHub Actions to deploy the content of the `master` branch, bundled and optimized, into the `gh-pages` branch. The deployed website can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
 
 ## Technologies
 
-Some of the Languages, Libraries and packages employed:
+Some of the Languages, Libraries and Packages employed:
 
 - Node Package Manager (for Webpack and webpack-related packages)
 - HTML5
@@ -207,8 +207,10 @@ The package.json file:
 
 To use this project, clone it using Git:
 
-1. Run `git clone` to clone the project into your local Git repository
-2. Serve the files with the help of a hosting provider (frontend-only)
+1. Run `git clone` to clone the `master` branch into your local Git repository
+2. Run `npm install` to install all dependencies
+3. Run `npm build:prod` to create the production version of the app (outputted in `/dist`)
+4. Serve the production files locally (e.g. webpack-dev-server), or on the web, with the help of a hosting provider
 
 ## Features
 
@@ -216,6 +218,8 @@ To use this project, clone it using Git:
 - Form validation logic in the "Start Hosting" page
 - Responsive design (mobile and desktop) created with Flexbox and media queries
 - Addition/removal of CSS classes ("slide-in" animation) implemented with JavaScript
+- Showcase of the usage of Webpack to bundle and optimize a project
+- Usage of GitHub Actions and GitHub Pages with Webpack, for a seamless workflow (transition from the development stage to the production/deployment stage)
 
 ## Inspiration
 
