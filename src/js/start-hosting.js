@@ -37,6 +37,9 @@ function validate(textField) {
   }
 }
 
+
+window.validate = validate;
+
 function validateEmail(email) {
   var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 
@@ -82,3 +85,4 @@ if (signupButton) {
 if (checkboxInput) {
   checkboxInput.addEventListener('click', checkboxChecked);
 }
+
