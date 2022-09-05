@@ -223,15 +223,24 @@ main {
 }
 
 .signature {
-  margin-right: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .signature p {
   cursor: default;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: slide-left-signature 9.5s linear infinite;
+  -webkit-animation: slide-left-signature 9.5s linear infinite;
+  animation: slide-left-signature 9.5s linear infinite;
 }
 
 .signature span {
-  border: 1px solid white;
   font-family: 'Montserrat';
 }
 
@@ -391,7 +400,6 @@ main {
 }
 
 @media (max-width: 40rem) {
-
   .main-nav {
     display: none;
   }
@@ -461,5 +469,34 @@ main {
 @keyframes bounce {
   to {
     transform: scale(1.1);
+  }
+}
+
+@-moz-keyframes slide-left-signature {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+@-webkit-keyframes slide-left-signature {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes slide-left-signature {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
