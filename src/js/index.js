@@ -14,7 +14,6 @@ import mstTile from '../assets/images/mstile-150x150.png';
 import safariPinned from '../assets/images/safari-pinned-tab.svg';
 import browserConfig from '../assets/images/browserconfig.xml';
 
-
 import customer1 from '../assets/images/customer-1.jpg';
 import customer2 from '../assets/images/customer-2.jpg';
 import customer3 from '../assets/images/customer-3.jpg';
