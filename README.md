@@ -16,7 +16,7 @@ Some of the Languages and Libraries employed:
 
 ## Project Directory Structure
 
-The development environment (with the use of a Webpack workflow), as seen in the master branch:
+The development environment (with the use of a Webpack workflow), as seen in the `master` branch:
 
 ```
 .
@@ -56,7 +56,7 @@ The development environment (with the use of a Webpack workflow), as seen in the
 └── start-hosting.html
 ```
 
-The Webpack workflow's production output, as shown in the gh-pages branch (tasked with the deployment of the app):
+The Webpack workflow's production output, as shown in the `gh-pages` branch (tasked with the deployment of the app):
 
 ```
 .
@@ -87,7 +87,7 @@ The Webpack workflow's production output, as shown in the gh-pages branch (taske
 
 ## Webpack Configuration File
 
-Webpack.config.js file used in the project:
+The webpack.config.js file used in the project:
 
 ```
 const HtmlWebpackPlugin = require('html-webpack-plugin');
