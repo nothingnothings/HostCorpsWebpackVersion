@@ -14,10 +14,6 @@ import '../assets/fonts/UniSansHeavyCAPS.woff2';
 import '../assets/fonts/anonymousPro-Bold.ttf';
 import '../assets/fonts/anonymousPro-Regular.ttf';
 
-
-
-
-
 var backdrop = document.querySelector('.backdrop');
 var modal = document.querySelector('.modal');
 var modalNoButton = document.querySelector('.modal__action--negative');
