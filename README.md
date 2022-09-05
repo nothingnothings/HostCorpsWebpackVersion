@@ -87,7 +87,7 @@ The Webpack workflow's production output, as shown in the gh-pages branch (taske
 
 ## Webpack Configuration File
 
-webpack.config.js:
+Webpack.config.js file used in the project:
 
 ```
 const HtmlWebpackPlugin = require('html-webpack-plugin');
