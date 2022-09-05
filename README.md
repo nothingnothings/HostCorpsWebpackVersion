@@ -167,25 +167,24 @@ The package.json file:
 ```
 
 {
-  "name": "projetoostcorps",
+  "name": "projetoHostcorps",
   "version": "1.0.0",
   "description": "HostCorps",
   "main": "src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server",
     "build:prod": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nothingnothings/HostCorps.git"
+    "url": "git+https://github.com/nothingnothings/HostCorpsWebpackVersions.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nothingnothings/HostCorps/issues"
+    "url": "https://github.com/nothingnothings/HostCorpsWebpackVersion/issues"
   },
-  "homepage": "https://github.com/nothingnothings/HostCorps#readme",
+  "homepage": "https://github.com/nothingnothings/HostCorpsWebpackVersion#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "cli": "^1.0.1",
