@@ -1,4 +1,4 @@
-![logo](/dist/assets/images/HostCorps.png)
+![logo](/src/assets/images/HostCorps.png)
 
 # HostCorps
 
