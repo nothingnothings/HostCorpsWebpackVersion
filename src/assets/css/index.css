@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+
+  text-transform: italic;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#product-overview {
+  background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url('../images/freedom.jpg') 30% 30% / cover no-repeat border-box;
+  width: 100vw;
+  height: 52vh;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#product-overview h1 {
+  color: var(--white-highlight);
+  font-family: 'Uni Sans Heavy CAPS';
+  font-size: 1.625rem;
+  position: absolute;
+  bottom: 9%;
+  left: 3%;
+  margin-left: 50px;
+  cursor: default;
+}
+
+.section-title {
+  color: var(--light-grey);
+  font-family: inherit;
+  text-align: center;
+  cursor: default;
+}
+
+.plan__list {
+  cursor: default;
+  width: 100%;
+  text-align: center;
+}
+
+.plan {
+  background-color: var(--highlight-light-color);
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem 0.5rem;
+  width: 100%;
+}
+
+.plan--highlighted {
+  background-color: var(--highlight-color);
+  color: var(--white-highlight);
+}
+
+.plan__annotation {
+  background-color: var(--darkest);
+  color: var(--white-highlight);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+  -webkit-animation: bounce 0.32s infinite alternate;
+  -moz-animation: bounce 0.32s infinite alternate;
+  animation: bounce 0.32s infinite alternate;
+
+  -webkit-animation-iteration-count: 10;
+  -moz-animation-iteration-count: 10;
+  animation-iteration-count: 10;
+}
+
+.plan__price {
+  color: var(--grey-grey);
+}
+
+.plan--highlighted {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan--highlighted .plan__title {
+  color: var(--darkest);
+}
+
+.plan--highlighted .plan__price {
+  color: var(--white-highlight);
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.plan__features li {
+  margin: 0.5rem 0px;
+}
+
+#key-features {
+  background: var(--highlight-color);
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+#key-features .section-title {
+  color: var(--darkest);
+  margin: 2rem;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.key-feature {
+  display: block;
+  margin: auto;
+}
+
+.key-feature__image {
+  background: var(--highlight-cyan);
+  width: 128px;
+  border: 2px solid var(--grey-grey);
+  border-radius: 50%;
+  height: 128px;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: var(--darkest);
+  font-size: 1.25rem;
+  cursor: default;
+}
+
+.modal {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 200;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  max-width: calc(100% - 40px);
+  max-height: calc(100% - 40px);
+}
+
+.modal__header {
+  height: 45px;
+  padding: 30px 30px;
+  margin-bottom: 5rem;
+}
+
+.modal__header h1 {
+  text-align: center;
+  cursor: default;
+  margin: 0 0 2rem 0;
+}
+
+.modal__content {
+  text-align: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid var(--highlight-light-color);
+  background: var(--highlight-light-color);
+  text-decoration: none;
+  color: var(--white-highlight);
+  font: inherit;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: var(--highlight-color);
+  border-color: var(--highlight-color);
+}
+
+.modal__action--negative {
+  background: var(--darkest);
+  border-color: var(--darkest);
+}
+
+@media (max-width: 40rem) and (min-height: 40rem) {
+  #product-overview {
+    height: 60vh;
+    background-position: 50% 25%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 25rem;
+  }
+
+  .key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .plan {
+    margin: 0.75rem 0rem;
+  }
+}
