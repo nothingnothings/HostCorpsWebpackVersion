@@ -47,12 +47,21 @@ body {
   text-align: center;
 }
 
+.plan__title {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+}
+
 .plan {
   background-color: var(--highlight-light-color);
   text-align: center;
   padding: 1rem;
   margin: 0.5rem 0.5rem;
   width: 100%;
+}
+
+.plan__description {
+  font-family: 'Montserrat';
 }
 
 .plan--highlighted {
@@ -101,6 +110,10 @@ body {
 
 .plan__features li {
   margin: 0.5rem 0px;
+}
+
+.plan__feature {
+  font-family: 'Montserrat';
 }
 
 #key-features {
