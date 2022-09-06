@@ -82,7 +82,7 @@
   text-align: justify;
   margin-bottom: 12px;
   cursor: default;
-  color: var(--grey-grey);
+  color: var(--light-grey);
 }
 
 .testimonial__subtitle a {
