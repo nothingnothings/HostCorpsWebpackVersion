@@ -177,6 +177,7 @@ To use this project, clone it using Git:
 - Form validation logic in the "Start Hosting" page
 - Responsive design (mobile and desktop) created with Flexbox and media queries
 - Addition/removal of CSS classes ("slide-in" animation) implemented with JavaScript
+- Custom favicon, compatible with multiple devices
 
 ## Inspiration
 
