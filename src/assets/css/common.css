@@ -435,7 +435,7 @@ main {
   .mobile-nav__item--cta a {
     color: var(--white-highlight);
     background: var(--highlight-color);
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     border-radius: 8px;
   }
 }
