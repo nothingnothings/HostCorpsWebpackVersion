@@ -7,6 +7,8 @@ Website of a fictional hosting provider company. Built with HTML5, CSS3 and vani
 This version of the app made use of a Webpack workflow to bundle its content. The webApp can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/nothingnothings/HostCorpsWebpackVersion/master?style=flat-square)
+  [![HitCount](https://hits.dwyl.com/nothingnothings/HostCorpsWebpackVersion.svg?style=flat-square)](http://hits.dwyl.com/nothingnothings/HostCorpsWebpackVersion)
+
 
 ## Technologies
 
