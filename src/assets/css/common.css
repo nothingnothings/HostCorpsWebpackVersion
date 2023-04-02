@@ -387,7 +387,7 @@ main {
   width: 50%;
   text-align: center;
   margin-left: 1.5rem;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 1rem 0rem;
   border-radius: 8px;
   background: var(--highlight-color);
 }
