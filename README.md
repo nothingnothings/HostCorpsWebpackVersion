@@ -6,6 +6,8 @@ Website of a fictional hosting provider company. Built with HTML5, CSS3 and vani
 
 This version of the app made use of a Webpack workflow to bundle its content. The webApp can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
 
+https://img.shields.io/codefactor/grade/github/nothingnothings/HostCorpsWebpackVersion/master?style=flat-square
+
 ## Technologies
 
 Some of the Languages, Libraries and packages employed:
