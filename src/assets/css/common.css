@@ -98,8 +98,6 @@ main {
   top: 0;
   left: 0;
   z-index: 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
   position: fixed;
   display: flex;
   -webkit-box-align: center;
