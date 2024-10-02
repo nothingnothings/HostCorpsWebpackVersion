@@ -2,28 +2,32 @@
 
 # HostCorps
 
-Website of a fictional hosting provider company. Built with HTML5, CSS3 and vanilla JavaScript.
+Website de uma empresa fictícia de provedores de hospedagem. Construído com HTML5, CSS3 e JavaScript puro.
 
-This version of the app made use of a Webpack workflow to bundle its content. The webApp can be acessed [here](https://nothingnothings.github.io/HostCorpsWebpackVersion).
+
+Esta versão do aplicativo utilizou um workflow Webpack para fazer o bundle de seu conteúdo. O webApp pode ser acessado [aqui](https://nothingnothings.github.io/HostCorpsWebpackVersion).
+
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/nothingnothings/HostCorpsWebpackVersion/master?style=flat-square)
 [![en](https://img.shields.io/badge/lang-en-red.svg?style=flat-square)](https://github.com/nothingnothings/HostCorpsWebpackVersion)
 [![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg?style=flat-square)](https://github.com/nothingnothings/HostCorpsWebpackVersion/blob/master/README.pt-br.md)
 
-## Technologies
 
-Some of the Languages, Libraries and packages employed:
+## Tecnologias
 
-- Node Package Manager (for Webpack and webpack-related packages)
+Algumas das linguagens, bibliotecas e pacotes utilizados:
+
+- Node Package Manager (para Webpack e pacotes relacionados ao webpack)
 - HTML5
-- CSS3 (animations, Flexbox, media queries)
-- Vanilla JavaScript (no JavaScript frameworks; usage of `var`, normal functions and common eventListeners)
-- Form validation logic (basic input validation, logic for adding and removing "focus" and "invalid" styles, etc)
-- Responsive mobile design (sidebar, Flexbox, media queries)
+- CSS3 (animações, Flexbox, media queries)
+- JavaScript puro (sem frameworks; uso de `var`, funções normais e eventListeners comuns)
+- Lógica de validação de formulários (validação básica de entrada, lógica para adicionar e remover estilos "focus" e "invalid", etc.)
+- Design responsivo para dispositivos móveis (sidebar, Flexbox, media queries)
 
-## Project Directory Structure
+## Estrutura de Diretórios do Projeto
 
-The development environment (with the use of a Webpack workflow), as seen in the `master` branch:
+O ambiente de desenvolvimento (com o uso de um workflow Webpack), conforme visto na branch `master`:
+
 
 ```
 .
@@ -63,7 +67,8 @@ The development environment (with the use of a Webpack workflow), as seen in the
 └── start-hosting.html
 ```
 
-The Webpack workflow's production output, as shown in the `gh-pages` branch (tasked with the deployment of the app):
+A saída de produção do workflow Webpack, conforme o observado na branch `gh-pages` (responsável pelo deploy do aplicativo):
+
 
 ```
 .
@@ -92,9 +97,9 @@ The Webpack workflow's production output, as shown in the `gh-pages` branch (tas
 └── start-hosting.html
 ```
 
-## Webpack and package.json Configuration Files
+## Arquivos de Configuração Webpack e package.json
 
-The webpack.config.js file used in the project:
+O arquivo webpack.config.js usado no projeto:
 
 ```
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -168,21 +173,24 @@ module.exports = {
 
 ```
 
-## Setup
+## Configuração
 
-To use this project, clone it using Git:
+Para usar este projeto, clone-o usando o Git:
 
-1. Run `git clone` to clone the project into your local Git repository
-2. Serve the files with the help of a hosting provider (frontend-only)
+1. Execute `git clone` para clonar o projeto em seu repositório Git local
+2. Sirva os arquivos com a ajuda de um provedor de hospedagem (frontend-only)
 
-## Features
+## Destaques
 
-- Multiple pages (different HTML pages, normal page serving)
-- Form validation logic in the "Start Hosting" page
-- Responsive design (mobile and desktop) created with Flexbox and media queries
-- Addition/removal of CSS classes ("slide-in" animation) implemented with JavaScript
-- Custom favicon, compatible with multiple devices
+- Múltiplas páginas (diferentes páginas HTML, páginas servidas normalmente)
+- Lógica de validação de formulários na página "Start Hosting"
+- Design responsivo (mobile e desktop) criado com Flexbox e media queries
+- Adição/remoção de classes CSS (animação "slide-in") implementada com JavaScript
+- Favicon personalizado, compatível com vários dispositivos
 
-## Inspiration
+## Inspiração
 
-Inspired by the "JavaScript - The Complete Guide" course by Maximilian Schwarzmüller.
+Inspirado pelo curso "JavaScript - The Complete Guide" de Maximilian Schwarzmüller.
+
+
+
